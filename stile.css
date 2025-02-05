@@ -72,17 +72,17 @@ h2, h3 {
 .image-container {
             position: relative;
             display: inline-block;
-        }
+}
 
         /* Stile dell'immagine */
-        .image-container img {
+.image-container img {
             max-width: 300px; /* Larghezza massima dell'immagine */
             height: auto; /* Mantiene le proporzioni */
             display: block;
-        }
+}
 
         /* Stile della descrizione nascosta */
-        .descrizionememo {
+.descrizionememo {
             position: absolute;
             bottom: 10px; /* Posizione dal basso */
             left: 50%; /* Centra orizzontalmente */
@@ -95,9 +95,9 @@ h2, h3 {
             opacity: 0; /* Inizialmente nascosto */
             transition: opacity 0.3s ease-in-out; /* Effetto dissolvenza */
             white-space: nowrap; /* Evita che il testo vada a capo */
-        }
+}
 
         /* Mostra la descrizione quando si passa sopra l'immagine */
         .image-container:hover .descrizionememo {
             opacity: 1;
-        }
+}
