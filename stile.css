@@ -82,7 +82,7 @@ h2, h3 {
         }
 
         /* Stile della descrizione nascosta */
-        .descrizione {
+        .descrizionememo {
             position: absolute;
             bottom: 10px; /* Posizione dal basso */
             left: 50%; /* Centra orizzontalmente */
@@ -98,6 +98,6 @@ h2, h3 {
         }
 
         /* Mostra la descrizione quando si passa sopra l'immagine */
-        .image-container:hover .descrizione {
+        .image-container:hover .descrizionememo {
             opacity: 1;
         }
