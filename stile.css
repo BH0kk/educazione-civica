@@ -120,7 +120,7 @@ h2, h3 {
 	height: auto;
 	display:block
 }
-.memo p{
+.memo {
 	text-align:left;
 	word-wrap: break-word;
 	width: 200;
