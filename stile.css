@@ -70,16 +70,15 @@ h2, h3 {
 	mergin-bottom: 0,75rem;
 }
 .image-container {
-            position: relative;
+            align-items:right;
             display: flex;
+	     max-width: 300px; 
+            height: auto; 
+            display: flex;
+	
 }
 
         
-.image-container img {
-            max-width: 300px; 
-            height: auto; 
-            display: flex;
-}
 
 
 .descrizionememo {
