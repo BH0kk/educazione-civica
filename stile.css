@@ -84,7 +84,7 @@ h2, h3 {
 
 .descrizionememo {
 	    height:auto;
-	    width:auto;
+	    width:200;
             position: absolute;
             bottom: 10px; 
             transform: translateX(-50%); 
@@ -102,6 +102,7 @@ h2, h3 {
 	text-align: center;
 	top: 50%;
 	left:105%;
+	word-wrap: break-word;
 	
 }
 
