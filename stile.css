@@ -42,7 +42,7 @@ body {
     text-align: center;
 }
 
-/* testo a sinistra */
+
 p {
     text-align: left;
 	font-family:'Open Sans', sans-serif;
@@ -51,7 +51,7 @@ p {
 	margin-bottom: 1rem;
 }
 
-/* spostamento */
+
 p.floating {
     float: left;
     width: 100%;
@@ -74,30 +74,30 @@ h2, h3 {
             display: inline-block;
 }
 
-        /* Stile dell'immagine */
+        
 .image-container img {
-            max-width: 300px; /* Larghezza massima dell'immagine */
-            height: auto; /* Mantiene le proporzioni */
+            max-width: 300px; 
+            height: auto; 
             display: block;
 }
 
-        /* Stile della descrizione nascosta */
+
 .descrizionememo {
             position: absolute;
-            bottom: 10px; /* Posizione dal basso */
-            left: 50%; /* Centra orizzontalmente */
-            transform: translateX(-50%); /* Allinea esattamente al centro */
-            background-color: rgba(0, 0, 0, 0.7); /* Sfondo semi-trasparente */
-            color: white; /* Testo bianco */
+            bottom: 10px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: white; 
             padding: 8px 12px;
             border-radius: 5px;
             font-size: 14px;
-            opacity: 0; /* Inizialmente nascosto */
-            transition: opacity 0.3s ease-in-out; /* Effetto dissolvenza */
-            white-space: nowrap; /* Evita che il testo vada a capo */
+            opacity: 0; 
+            transition: opacity 0.3s ease-in-out; 
+            white-space: nowrap; 
 }
 
-        /* Mostra la descrizione quando si passa sopra l'immagine */
+
         .image-container:hover .descrizionememo {
             opacity: 1;
 }
