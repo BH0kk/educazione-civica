@@ -87,7 +87,6 @@ h2, h3 {
 	    width:auto;
             position: absolute;
             bottom: 10px; 
-            left: 50%; 
             transform: translateX(-50%); 
             background-color: rgba(255, 255, 255, 0.7); 
             color: black; 
