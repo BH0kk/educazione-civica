@@ -111,13 +111,21 @@ h2, h3 {
 }
 
 
-.memo {
-	text-align:left;
-	word-wrap: break-word;
-	width: 200;
-	display: flex;
-	align-items: center;
-	gap: 20px;
+.contenitore {
+    display: flex; /* Imposta un layout flessibile */
+    align-items: center; /* Allinea verticalmente */
+    justify-content: space-between; /* Spazia gli elementi */
+    margin: 20px 0; /* Aggiungi margini per separazione */
 }
 
-	
+.memo {
+    flex: 1; /* Occupa lo spazio rimanente */
+    margin-right: 20px; /* Spaziatura tra testo e immagine */
+    text-align: left;
+}
+
+.immagine {
+    flex-shrink: 0; /* Evita che l'immagine venga ridotta */
+    width: 300px; /* Imposta una larghezza fissa */
+    height: auto; /* Mantieni le proporzioni */
+}
