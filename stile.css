@@ -83,6 +83,8 @@ h2, h3 {
 
 
 .descrizionememo {
+	    height:auto;
+	    width:auto;
             position: absolute;
             bottom: 10px; 
             left: 50%; 
