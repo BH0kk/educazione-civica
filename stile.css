@@ -84,9 +84,9 @@ h2, h3 {
 
 .descrizionememo {
 	    height:auto;
-	    width:200;
+	    width:auto;
             position: absolute;
-            bottom: 10px; 
+            bottom: autp; 
             transform: translateX(-50%); 
             background-color: rgba(255, 255, 255, 0.7); 
             color: black; 
