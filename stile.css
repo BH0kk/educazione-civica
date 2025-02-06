@@ -71,14 +71,14 @@ h2, h3 {
 }
 .image-container {
             position: relative;
-            display: inline-block;
+            display: flex;
 }
 
         
 .image-container img {
             max-width: 300px; 
             height: auto; 
-            display: block;
+            display: flex;
 }
 
 
@@ -86,7 +86,7 @@ h2, h3 {
 	    height:auto;
 	    width:auto;
             position: absolute;
-            bottom: autp; 
+            bottom: auto; 
             transform: translateX(-50%); 
             background-color: rgba(255, 255, 255, 0.7); 
             color: black; 
