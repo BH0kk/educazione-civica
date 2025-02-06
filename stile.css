@@ -109,3 +109,15 @@ h2, h3 {
         .image-container:hover .descrizionememo {
             opacity: 1;
 }
+.container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.container img{
+	max-width: 300px;
+	height: auto;
+	display:block
+}
+
+	
