@@ -23,12 +23,12 @@
 .container {
   display: flex;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5px;
+  gap:20px;
+  flex-wrap: wrap;
 }
 img {
   max-width: 100%;
-  max-width: 100%;
+  height:auto;
   float: right;
 }
 h1{
@@ -46,7 +46,7 @@ h1{
 }
 .sezione {
   width: 400px;
-  float:rigth;
+  float:right;
   position:relative;
   margin-left:20px;
 }
@@ -79,8 +79,6 @@ h1{
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   word-wrap: break-word;
