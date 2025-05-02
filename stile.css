@@ -47,13 +47,13 @@ h1{
 .sezione {
   position: relative;
   width: 400px;
+  float:rigth;
 }
 
 .immagine {
   display: block;
   width: 100%;
   height: auto;
-  float:right;
 }
 
 .overlay {
