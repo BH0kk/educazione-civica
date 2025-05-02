@@ -47,6 +47,8 @@ h1{
 .sezione {
   width: 400px;
   float:rigth;
+  position:relative;
+  margin-left:20px;
 }
 
 .immagine {
