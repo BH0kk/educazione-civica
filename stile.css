@@ -40,7 +40,7 @@ h1{
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
-  width: 700px;
+  width: 500px;
   padding-left:15px;
   /*padding-right: 100px;*/
 }
@@ -51,7 +51,7 @@ h1{
 
 .immagine {
   display: block;
-  width: 300;
+  width: 150;
   height: auto;
   float:right;
 }
