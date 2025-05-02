@@ -46,12 +46,12 @@ h1{
 }
 .sezione {
   position: relative;
-  width: 50%;
+  width: 400;
 }
 
 .immagine {
   display: block;
-  width: 500;
+  width: 100%;
   height: auto;
   float:right;
 }
