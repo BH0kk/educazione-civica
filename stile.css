@@ -1,130 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: darkseagreen;
-    padding: 0.5rem 1rem;
-	gap: 1rem
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
-	font-family: 'Montserrat', sans-serif;
-	font-size:1.2rem;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	padding: 0.5rem 1rem; /*contorno*/
-	background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-	border-radius:5px;
-	transition: background-color 0.3s ease;
-    text-decoration: none;
-    margin: 1rem;
-    font-weight: bold;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .navbar a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Cambia colore al passaggio */
-    text-decoration: none;
-}
-
-.navbar .home {
-    margin-right: auto;
-}
-
-.content {
-    padding: 1rem;
-    text-align: center;
-}
-
-
-p {
-    text-align: left;
-	font-family:'Open Sans', sans-serif;
-	font-size: 1rem;
-	line-height:1.6;
-	margin-bottom: 1rem;
-}
-
-
-p.floating {
-    float: left;
-    width: 100%;
-}
-h1 {
-	font-family: 'Playfair Display1', serif;
-	font-size: 2.5rem;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 1rem;
-}
-h2, h3 {
-	font-family:'Roboto', sans-serif;
-	font-size: 1.75rem;
-	font-weight: 600;
-	mergin-bottom: 0,75rem;
-}
-.image-container {
-            align-items:right;
-            display: flex;
-	     max-width: 300px; 
-            height: auto; 
-            display: flex;
-	
-}
-
-        
-
-
-.descrizionememo {
-	    height:auto;
-	    width:auto;
-            position: absolute;
-            bottom: auto; 
-            transform: translateX(-50%); 
-            background-color: rgba(255, 255, 255, 0.7); 
-            color: black; 
-            padding: 15px;
-            border-radius: 10px;
-            font-size: 16px;
-            opacity: 0; 
-            transition: opacity 0.3s ease-in-out; 
-            white-space: nowrap;
-	diplay: flex;
-	align-items: center;
-	justify-content:center;
-	text-align: center;
-	top: 50%;
-	left:105%;
-	word-wrap: break-word;
-	
-}
-
-
-        .image-container:hover .descrizionememo {
-            opacity: 1;
-}
-
-
-.contenitore {
-    display: flex; /* Allinea testo e immagine orizzontalmente */
-    align-items: center; /* Allinea verticalmente al centro */
-    gap: 20px; /* Spazio tra testo e immagine */
-    margin: 20px 0; /* Margine superiore e inferiore */
-}
-
-.memo {
-    flex: 1; /* Occupa lo spazio rimanente accanto all'immagine */
-    text-align: left; /* Allinea il testo a sinistra */
-}
-
-.immagine {
-    width: 300px; /* Larghezza fissa per l'immagine */
-    height: auto; /* Mantieni le proporzioni */
-    flex-shrink: 0; /* Evita che l'immagine si riduca */
+  background-color: #ddd;
+  color: black;
 }
