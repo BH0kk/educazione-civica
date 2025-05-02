@@ -44,12 +44,12 @@ h1{
   padding-left:15px;
   /*padding-right: 100px;*/
 }
-.container {
+.sezione {
   position: relative;
   width: 50%;
 }
 
-.image {
+.immagine {
   display: block;
   width: 100%;
   height: auto;
@@ -67,11 +67,11 @@ h1{
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.sezione:hover .overlay {
   height: 100%;
 }
 
-.text {
+.descrizionememo {
   color: white;
   font-size: 20px;
   position: absolute;
