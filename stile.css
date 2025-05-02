@@ -29,5 +29,5 @@ img {
 }
 .descrizionememo{
   font:70px;
-  float: left
+  display: inline-block
 }
