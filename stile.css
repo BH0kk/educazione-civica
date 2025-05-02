@@ -41,11 +41,10 @@ h1{
   overflow-wrap: break-word;
   white-space: normal;
   width: 500px;
-  padding-left:15px;
+  padding-left: 15px;
   /*padding-right: 100px;*/
 }
 .sezione {
-  position: relative;
   width: 400px;
   float:rigth;
 }
