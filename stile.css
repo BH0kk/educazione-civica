@@ -32,6 +32,7 @@ img {
   display: inline-block;
   width: 300px;
   padding-left:30px;
+  text-align:right;
 }
 .memo {
   word-wrap: break-word;
