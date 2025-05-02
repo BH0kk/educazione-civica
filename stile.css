@@ -29,7 +29,9 @@ img {
 }
 .descrizionememo{
   font:70px;
-  display: inline-block
+  display: inline-block;
+  width: 300px;
+  padding:15px;
 }
 .memo {
   word-wrap: break-word;
