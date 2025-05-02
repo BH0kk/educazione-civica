@@ -31,3 +31,8 @@ img {
   font:70px;
   display: inline-block
 }
+.memo {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
