@@ -42,7 +42,7 @@ img {
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
-  width: 300px;
+  width: 500px;
   padding-left:15px;
-  padding-right: 250px;
+  /*padding-right: 100px;*/
 }
