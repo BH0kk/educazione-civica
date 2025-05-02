@@ -35,21 +35,7 @@ h1{
   text-align:center;
   color:red;
 }
-.descrizionememo{
-  position:absolute;
-  display: inline-block;
-  color:white;
-  padding:10px;
-  text-align:justify;
-  backgroung:rgba(0,0,0,0.7);
-  border-radius: 0 0 8px 8px;
-  transition: opacity 0.3s ease-in-out;
-  opacity: 0;
-  width:400px;
-  overflow: hidden;
-  transition: transform 0.4s ease;
-  transform: translateY(100%)
-}
+
 .memo {
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -58,18 +44,38 @@ h1{
   padding-left:15px;
   /*padding-right: 100px;*/
 }
-.immagine {
+
+
+
+}.immagine {
   position: relative;
-  width: 400px; /* cambia la dimensione se necessario */
+  width: 400px;
   margin: 20px;
 }
+
 .immagine img {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 8px;
 }
-img .immagine:hover .descrizionememo{
-  opacity:1;
+
+.descrizionememo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 0 0 8px 8px;
+  transform: translateY(100%);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+
+.immagine:hover .descrizionememo {
   transform: translateY(0);
+  opacity: 1;
 }
