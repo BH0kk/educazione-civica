@@ -31,7 +31,7 @@ img {
   font:70px;
   display: inline-block;
   width: 300px;
-  padding:20px;
+  padding-left:30px;
 }
 .memo {
   word-wrap: break-word;
@@ -39,5 +39,5 @@ img {
   white-space: normal;
   width: 300px;
   padding-left:15px;
-  padding-right: 700px;
+  padding-right: 250px;
 }
