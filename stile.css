@@ -69,10 +69,6 @@ h1{
   display: block;
   border-radius: 8px;
 }
-.immagine:hover .descrizionememo {
-  opacity: 1;
-  transform: traslateY(0);
-}
 img .immagine:hover .descrizionememo{
   opacity:1;
   transform: traslateY(0);
