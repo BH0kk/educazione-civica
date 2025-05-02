@@ -73,3 +73,7 @@ h1{
   opacity: 1;
   transform: traslateY(0);
 }
+img .immagine:hover .descrizionememo{
+  opacity:1;
+  transform: traslateY(0);
+}
