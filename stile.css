@@ -29,7 +29,7 @@
 img {
   max-width: 100%;
   height:auto;
-  float: right;
+  /*float: right;*/
 }
 h1{
   text-align:center;
@@ -74,6 +74,39 @@ h1{
 }
 
 .descrizionememo {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  word-wrap: break-word;
+  width: 90%; 
+}
+.img_shoah {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.descrizioneshoah {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  word-wrap: break-word;
+  width: 90%; 
+}
+.img_urss{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.descrizionestrage {
   color: black;
   font-size: 15px;
   position: absolute;
