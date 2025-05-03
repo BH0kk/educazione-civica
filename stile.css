@@ -23,10 +23,7 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content:center;
   gap:20px;
-  max-width:1000px;
-  margin: 0 auto;
   flex-wrap: wrap;
 }
 img {
@@ -45,8 +42,6 @@ h1{
   white-space: normal;
   width: 500px;
   padding-left: 15px;
-  flex: 1;
-  min-width:300;
   /*padding-right: 100px;*/
 }
 .sezione {
@@ -54,9 +49,6 @@ h1{
   float:right;
   position:relative;
   margin-left:20px;
-  test-align: center;
-  flex: 1;
-  min-width: 300px;
 }
 
 .immagine {
@@ -139,5 +131,16 @@ h1{
   width: 500px;
   padding-left: 15px;
 }
-
+.urss {
+  display: flex;
+  align-items: center;
+  gap:20px;
+  flex-wrap: wrap;
+}
+.shoah {
+  display: flex;
+  align-items: center;
+  gap:20px;
+  flex-wrap: wrap;
+}
 
