@@ -125,7 +125,7 @@ h1{
   padding-left: 15px;
 }
 .testourss {
-    word-wrap: break-word;
+  word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
   width: 500px;
