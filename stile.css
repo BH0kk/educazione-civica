@@ -38,6 +38,12 @@ header {
   text-align: center;
   background-color: #e8f0fe;
 }
+.argomenti {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
 .sezioni {
   display: flex;
   justify-content: center;
@@ -46,8 +52,9 @@ header {
   flex-wrap: wrap;
 }
 .argomento {
-  width: 250px;
+  width: 30%;
   text-align: center;
+  border-radius:8px;
 }
 .argomento img {
   width: 100%;
@@ -59,12 +66,24 @@ header {
 .argomento img:hover {
   transform: scale(1.05);
 }
+.argomento h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+.argomento p {
+  font-size: 1em;
+  color: #555;
+}
 footer {
   text-align: center;
   padding: 20px;
   background-color: #ddd;
   font-style: italic;
 }
+@media (max-width: 768px) {
+  .argomento {
+    width: 100%;
+  }
 /*Stiile Genocidi e le altre pagine*/
 .container {
   display: flex;
