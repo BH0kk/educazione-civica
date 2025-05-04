@@ -1,5 +1,5 @@
 /*Stile Home*/
-
+/*
 body, html {
   height: 100%;
   margin: 0;
@@ -81,7 +81,7 @@ footer {
 @media (max-width: 768px) {
   .argomento {
     width: 100%;
-  }
+  }*/
 /*Stiile Genocidi e le altre pagine*/
 .container {
   display: flex;
