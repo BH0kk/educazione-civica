@@ -4,6 +4,7 @@ body {
   margin: 0;
   background-color: #f9f9f9;
   color: #333;
+  padding-top: 70px; 
 }
 header {
   background-color: #003366;
@@ -21,7 +22,10 @@ header {
   z-index:1000;
   top:0;
 }
-
+main {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 .navbar a {
   color: white;
   padding: 14px 20px;
