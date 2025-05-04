@@ -1,3 +1,4 @@
+/*Stile Home*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -32,6 +33,39 @@ header {
   background-color: #ddd;
   color: black;
 }
+.intro {
+  padding: 30px;
+  text-align: center;
+  background-color: #e8f0fe;
+}
+.sezioni {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.argomento {
+  width: 250px;
+  text-align: center;
+}
+.argomento img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.argomento img:hover {
+  transform: scale(1.05);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+  font-style: italic;
+}
+/*Stiile Genocidi e le altre pagine*/
 .container {
   display: flex;
   align-items: center;
@@ -155,4 +189,5 @@ h1{
   gap:20px;
   flex-wrap: wrap;
 }
+
 
