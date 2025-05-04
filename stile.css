@@ -149,7 +149,7 @@ h1{
   height: 100%;
 }
 
-.descrizionememo {
+.descrizionememo, . descrizioneshoah, .descrizionestrage {
   color: black;
   font-size: 15px;
   position: absolute;
@@ -165,34 +165,12 @@ h1{
   width: 100%;
   height: auto;
 }
-.descrizioneshoah {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  word-wrap: break-word;
-  width: 90%; 
-}
 .img_urss{
   display: block;
   width: 100%;
   height: auto;
 }
 
-.descrizionestrage {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  word-wrap: break-word;
-  width: 90%; 
-}
 .testoshoah {
   word-wrap: break-word;
   overflow-wrap: break-word;
