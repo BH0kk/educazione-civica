@@ -1,5 +1,5 @@
 /*Stile Pagine*/
-/*
+
 body, html {
   height: 100%;
   margin: 0;
@@ -100,28 +100,12 @@ h1{
   text-align:center;
   color:red;
 }
-
-.memo {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
-  width: 500px;
-  padding-left: 15px;
-  /*padding-right: 100px;*/
-}
 .sezione {
   width: 400px;
   float:right;
   position:relative;
   margin-left:20px;
 }
-
-.immagine {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay {
   position: absolute;
   bottom: 0;
@@ -137,24 +121,12 @@ h1{
 .sezione:hover .overlay {
   height: 100%;
 }
-
-.descrizionememo {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  word-wrap: break-word;
-  width: 90%; 
-}
-.img_shoah {
+.immagine, .img_shoah, .img_urss {
   display: block;
   width: 100%;
   height: auto;
 }
-.descrizioneshoah {
+.descrizionememo, .descrizioneshoah, .descrizionestrage {
   color: black;
   font-size: 15px;
   position: absolute;
@@ -165,31 +137,7 @@ h1{
   word-wrap: break-word;
   width: 90%; 
 }
-.img_urss{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.descrizionestrage {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  word-wrap: break-word;
-  width: 90%; 
-}
-.testoshoah {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
-  width: 500px;
-  padding-left: 15px;
-}
-.testourss {
+.memo, .testoshoah, .testourss, {
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
@@ -208,4 +156,6 @@ h1{
   gap:20px;
   flex-wrap: wrap;
 }
-
+.armeni {
+  align-items:center;
+}
