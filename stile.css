@@ -36,7 +36,7 @@ main {
   background-color: #ddd;
   color: black;
 }
-/*
+
 .intro {
   padding: 30px;
   text-align: center;
@@ -82,7 +82,7 @@ footer {
 @media (max-width: 768px) {
   .argomento {
     width: 100%;
-  }*/
+  }
 /*Stile Genocidi e le altre pagine*/
 .container {
   display: flex;
