@@ -79,12 +79,12 @@ header {
   padding: 20px;
   background-color: #ddd;
   font-style: italic;
-}*/
+}
 @media (max-width: 768px) {
   .argomento {
     width: 100%;
   }
-/*Stile Genocidi e le altre pagine*/
+Stile Genocidi e le altre pagine*/
 .container {
   display: flex;
   align-items: center;
