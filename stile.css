@@ -89,7 +89,7 @@ h1{
   width: 90%; 
 }
 /*Testi*/
-.memo, .testoshoah, .testourss, {
+.memo, .testoshoah, .testourss {
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
