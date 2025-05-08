@@ -1,4 +1,4 @@
-/*Stile Pagine*/
+/*Stile Base*/
 
 body, html {
   height: 100%;
@@ -11,6 +11,7 @@ header {
   padding: 20px;
   text-align: center;
 }
+/*Navbar*/
 .navbar {
   background-color: #333;
   overflow: hidden;
@@ -32,7 +33,7 @@ header {
   color: black;
 }
 
-Stile Genocidi e le altre pagine*/
+/*Sezioni*/
 .container {
   display: flex;
   align-items: center;
@@ -54,6 +55,7 @@ h1{
   position:relative;
   margin-left:20px;
 }
+/*Descrizione Immagini*/
 .overlay {
   position: absolute;
   bottom: 0;
@@ -85,6 +87,7 @@ h1{
   word-wrap: break-word;
   width: 90%; 
 }
+/*Testi*/
 .memo, .testoshoah, .testourss, {
   word-wrap: break-word;e
   overflow-wrap: break-word;
@@ -92,16 +95,10 @@ h1{
   width: 500px;
   padding-left: 15px;
 }
-.urss {
+/*Sezioni Specifiche*/
+.urss, .shoah {
   display: flex;
   align-items: center;
   gap:20px;
   flex-wrap: wrap;
 }
-.shoah {
-  display: flex;
-  align-items: center;
-  gap:20px;
-  flex-wrap: wrap;
-}
-
