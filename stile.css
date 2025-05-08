@@ -96,9 +96,4 @@ h1{
   padding-left: 15px;
 }
 /*Sezioni Specifiche*/
-.urss, .shoah {
-  display: flex;
-  align-items: center;
-  gap:20px;
-  flex-wrap: wrap;
-}
+
