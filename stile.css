@@ -266,20 +266,20 @@ blockquote {
 /* Stile del corpo */
 body.info{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f4f8;
+  background-color: red;
   color: #333;
   line-height: 1.6;
   padding-top: 70px;
 }
 
 /* Header */
-header.info {
+/*header {
   background-color: #2c3e50;
   color: white;
   padding: 20px 0;
   text-align: center;
 }
-
+*/
 /* Contenitore principale */
 .containerinfo {
   max-width: 1200px;
