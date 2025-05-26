@@ -281,7 +281,7 @@ blockquote {
 }
 
 /* Contenitore principale */
-.container_info {
+.containerinfo {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
@@ -311,6 +311,61 @@ blockquote {
 /* Footer */
 .info footer {
   background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+/*Economia Aziendale*/
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #f5fdf6;
+  color: #2c3e50;
+  line-height: 1.6;
+  padding-top: 70px;
+}
+
+/* Header */
+.eco eheader {
+  background-color: #27ae60;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+/* Contenitore */
+.container_eco {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Sezioni */
+.content-sez {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 5px solid #27ae60;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.content-sez h2 {
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.content-sez img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+/* Footer */
+.eco footer {
+  background-color: #2e7d32;
   color: white;
   text-align: center;
   padding: 15px 0;
