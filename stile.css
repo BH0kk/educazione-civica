@@ -257,12 +257,12 @@ blockquote {
         margin-bottom: 15px;
       }
       /*Informatica*/
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+*/
 /* Stile del corpo */
 .info body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
