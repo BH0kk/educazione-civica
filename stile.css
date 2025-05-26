@@ -264,7 +264,7 @@ blockquote {
 }
 */
 /* Stile del corpo */
-.info body {
+body.info{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f4f8;
   color: #333;
@@ -273,7 +273,7 @@ blockquote {
 }
 
 /* Header */
-.info header {
+header.info {
   background-color: #2c3e50;
   color: white;
   padding: 20px 0;
@@ -309,7 +309,7 @@ blockquote {
 }
 
 /* Footer */
-.info footer {
+footer.info {
   background-color: #2c3e50;
   color: white;
   text-align: center;
