@@ -196,3 +196,57 @@ blockquote {
   font-weight: bold;
   color: #333;
 }
+/*Diritto*/
+ .contenuto-civile {
+      max-width: 1000px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 40px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .titolo-sezione {
+      color: #2e7d32;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .blocco {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .blocco img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .testo {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    h2 {
+      color: #2e7d32;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .blocco {
+        flex-direction: column;
+      }
+
+      .blocco img {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
