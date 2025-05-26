@@ -197,6 +197,12 @@ blockquote {
   color: #333;
 }
 /*Diritto*/
+  .diritto section {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8f5;
+      margin: 0;
+      padding-top: 65px;
+    }
  .contenuto-civile {
       max-width: 1000px;
       margin: auto;
