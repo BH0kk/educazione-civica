@@ -1,4 +1,4 @@
-/* Navbar - comune a tutte le pagine */
+* Navbar (identica per tutte le pagine) */
 .navbar {
   background-color: #333;
   overflow: hidden;
@@ -20,12 +20,12 @@
   color: black;
 }
 
-/* Corpo */
-.eco-body {
+/* Corpo pagina */
+body.eco {
   font-family: Arial, sans-serif;
-  background-color: #fefefc;
+  background-color: #f8fbf8;
+  color: #333;
   padding-top: 70px;
-  color: #2e2e2e;
 }
 
 /* Contenitore principale */
@@ -44,21 +44,31 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.eco-section h2 {
-  color: #2ecc71;
-  margin-bottom: 10px;
+/* Layout affiancato */
+.eco-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* per dispositivi piccoli */
 }
 
-.eco-section img {
-  max-width: 100%;
+/* Testo */
+.eco-text {
+  flex: 1 1 400px;
+}
+
+/* Immagini */
+.eco-content img {
+  max-width: 400px;
+  width: 100%;
   height: auto;
-  margin-top: 15px;
   border-radius: 5px;
+  flex-shrink: 0;
 }
 
 /* Footer */
-.eco-footer {
-  background-color: #2ecc71;
+footer.eco {
+  background-color: #2c3e50;
   color: white;
   text-align: center;
   padding: 15px 0;
