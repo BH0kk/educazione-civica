@@ -25,7 +25,7 @@ body.eco {
   font-family: Arial, sans-serif;
   background-color: #f8fbf8;
   color: #333;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 /* Contenitore principale */
@@ -43,7 +43,10 @@ body.eco {
   border-left: 6px solid #2ecc71;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+.eco-section:first-of-type {
+  padding-top: 70px;
+  /* oppure margin-top: 70px; */
+}
 /* Layout affiancato */
 .eco-content {
   display: flex;
