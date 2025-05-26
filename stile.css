@@ -281,7 +281,7 @@ blockquote {
 }
 
 /* Contenitore principale */
-.container {
+.container_info {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
