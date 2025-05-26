@@ -44,7 +44,7 @@ body.eco {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .eco-section:first-of-type {
-  padding-top: 70px;
+  padding-top: 100px;
   /* oppure margin-top: 70px; */
 }
 /* Layout affiancato */
