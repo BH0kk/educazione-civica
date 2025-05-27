@@ -21,22 +21,22 @@
 }
 
 /* Corpo e contenitore */
-body.math {
+body.mate {
   font-family: Arial, sans-serif;
-  background-color: #f3f7fc;
+  background-color: #eef6fb;
   color: #222;
   padding-top: 80px;
   margin: 0;
 }
 
-.math-container {
+.mate-container {
   max-width: 1100px;
   margin: auto;
   padding: 20px;
 }
 
 /* Sezioni */
-.math-section {
+.mate-section {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 30px;
@@ -44,38 +44,33 @@ body.math {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.math-section h2 {
+.mate-section h2 {
   color: #2980b9;
   margin-bottom: 15px;
 }
 
 /* Testo + immagine affiancati */
-.math-box {
+.mate-box {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   align-items: center;
 }
 
-.math-box p {
+.mate-box p {
   flex: 1 1 300px;
   margin: 0;
 }
 
-.math-box img {
+.mate-box img {
   flex: 1 1 300px;
-  max-width: 250px;
+  max-width: 250;
   height: auto;
   border-radius: 5px;
 }
 
-/* Padding extra per la prima sezione */
-/*.first-math-section {
-  padding-top: 60px;
-}
-*/
 /* Footer */
-footer.math {
+footer.mate {
   background-color: #333;
   color: white;
   text-align: center;
