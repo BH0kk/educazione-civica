@@ -67,9 +67,11 @@ body.genocidi {
 }
 
 .genocidi-box img {
-  flex: 0 0 200px;
-  max-width: 100%;
+  flex: 0 0 auto;
+  max-width: 200px;
   height: auto;
+  min-width: 0;
+  object-fit: contain;
   border-radius: 5px;
 }
 
