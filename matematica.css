@@ -70,8 +70,10 @@ body.math {
 }
 
 /* Padding extra per la prima sezione */
-
-
+/*.first-math-section {
+  padding-top: 60px;
+}
+*/
 /* Footer */
 footer.math {
   background-color: #333;
