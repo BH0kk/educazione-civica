@@ -4,24 +4,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body.informatica-body {
-  font-family: Arial, sans-serif;
-  background-color: #eef3f8;
-  color: #222;
-  padding-top: 80px;
-}
-
-/*Navbar*/
+/* Navbar */
 .navbar {
   background-color: #333;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  position:fixed;
-  width:100%;
-  z-index:1000;
-  top:0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
 }
 .navbar a {
   color: white;
@@ -33,6 +25,14 @@ body.informatica-body {
   background-color: #ddd;
   color: black;
 }
+body.informatica-body {
+  font-family: Arial, sans-serif;
+  background-color: #eef3f8;
+  color: #222;
+  padding-top: 80px;
+}
+
+
 .main-informatica {
   max-width: 1200px;
   margin: auto;
