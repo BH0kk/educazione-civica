@@ -324,11 +324,11 @@ body.informatica-body {
 }
 
 .content-row img {
-  flex: 1;
-  max-width: 100%;
+  flex: 1 1 300px;
+  max-width: 250px;
   height: auto;
   border-radius: 5px;
-  min-width: 200px;
+  min_width: 100px;
 }
 
 .footer-informatica {
